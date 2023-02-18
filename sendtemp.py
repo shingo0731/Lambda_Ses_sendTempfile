@@ -16,9 +16,9 @@ logger.setLevel(INFO)
 s3 = boto3.resource('s3')
 
 #メアド
-SRC_MAIL = "test@bakutest.biz"
-DST_MAIL = "bakuchiku.house1122009@gmail.com"
-REGION = "us-east-1"
+SRC_MAIL = ""
+DST_MAIL = ""
+REGION = ""
 
 #メール送信
 def send_email(source, to, subject):
